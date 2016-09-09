@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoadingImageView</string>
+    <string name="info_text">Below ListView is displaying content using data binder.\nClick on Image to Zoom.</string>
+</resources>
