@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">LoadingImageView</string>
-    <string name="info_text">Below ListView is displaying content using data binder.\nClick on Image to Zoom.</string>
+    <string name="info_text">Below ListView is displaying content using data binder. Click on Image to Zoom.</string>
+
+    <string name="btn_title_random_image">Random Image</string>
+    <string name="btn_title_activity">Activity</string>
+    <string name="btn_title_list_view">ListView</string>
+
+    <string name="dummy_image_url">http://www.nature.org/cs/groups/webcontent/@photopublic/documents/media/bluebird-640x400-1.jpg</string>
 </resources>

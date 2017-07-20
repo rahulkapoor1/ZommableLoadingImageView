@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZoomableImageView">
+        <attr name="image_url" format="string"/>
+        <attr name="error_icon" format="reference"/>
+        <attr name="zoomable_image_background" format="color"/>
+    </declare-styleable>
+</resources>

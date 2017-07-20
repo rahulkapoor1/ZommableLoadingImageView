@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zoomableView="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -10,22 +11,24 @@
     </data>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/activity_vertical_margin">
 
-        <com.rasi.loadingimageview.widget.LoadingImageView
+        <com.iriis.libzoomableimageview.ZoomableImageView
             android:id="@+id/loading_img"
             android:layout_width="@dimen/img_size"
             android:layout_height="@dimen/img_size"
-            android:layout_alignParentLeft="true"
-            app:path="@{imageData.getPath()}" />
+            android:layout_centerInParent="true"
+            app:path="@{imageData.getPath()}"
+            zoomableView:error_icon="@drawable/warning"
+            zoomableView:zoomable_image_background="@color/colorPrimary"/>
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
             android:background="@color/image_label_bg"
             android:text="@{imageData.getName()}"
             android:textColor="@android:color/white" />
