@@ -19,7 +19,7 @@ Add it in your root build.gradle at the end of repositories in your project modu
 Add the dependency in you app module:
 ```groovy
 	dependencies {
-	 compile 'com.github.rahulkapoor1:ZommableLoadingImageView:v1.2'
+	       compile 'com.github.rahulkapoor1:ZommableLoadingImageView:v1.2'
 	 }
 
 ```
