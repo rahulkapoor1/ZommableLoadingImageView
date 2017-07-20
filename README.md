@@ -1,7 +1,7 @@
 Zoomable ImageView
 ========
 
-This library will help you to show ImageView from url and to provide zooming, panning functionalities. This simple ImageView will easily fit in your ListView/RecyclerView/Activity/Fragment etc.
+This library will help you to show Image from url and to provide zooming, panning functionalities. This simple ImageView will easily fit in your ListView/RecyclerView/Activity/Fragment etc.
 
 Gradle
 --------
